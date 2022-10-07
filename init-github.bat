@@ -14,5 +14,6 @@ echo .env >> .gitignore
 git init
 git add .
 git commit -m "first commit"
-git remote add origin git@github.com:EduardoPetrini/%REPO_NAME%.git
+git remote remove origin
+git remote add origin git@github.com:%USERNAME%/%REPO_NAME%.git
 git push -u origin master
